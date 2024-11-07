@@ -7,28 +7,31 @@ import os
 
 # Proporções de cada grupo
 proporcoes_grupo = {
-    "Backoffice": 0.50,
-    "Intimações": 0.30,
-    "Consolidações": 0.20
+    "Backoffice": 0.60,
+    "Intimações": 0.25,
+    "Consolidações": 0.15
 }
 
 # Proporções dentro de cada grupo
 proporcoes_advogados = {
     "Backoffice": {
-        "Matheus Cezar Dias": 0.20,
         "Ana Carolina Bressan da Silva": 0.30,
-        "Erick Damin Bitencourt": 0.30,
-        "Victor Lopes Machado Gonçalves": 0.20
+        "Erick Damin Bitencourt": 0.40,
+        "Rayana" : 0.30
+        
     },
     "Intimações": {
-        "Sarah Raquel Lopes Gonçalves": 0.28,
-        "João Lucas Martins Falcão": 0.38,
-        "Darlei Jacoby Kayser": 0.33
+        "Maira Vol": 0.25,
+        "João Lucas Martins Falcão": 0.25,
+        "Darlei Jacoby Kayser": 0.25,
+        "Victor Lopes Machado Gonçalves": 0.25
     },
     "Consolidações": {
-        "Rafaella Rodrigues dos Santos Marques": 0.33,
-        "Felipe Machado da Luz": 0.32,
-        "Danielle Lais da Silva Lutkemeyer": 0.35
+        "Rafaella Rodrigues dos Santos Marques": 0.20,
+        "Bruna": 0.20,
+        "Danielle Lais da Silva Lutkemeyer": 0.20,
+        "Matheus Cezar Dias": 0.20,
+        "Tatiane" : 0.20
     }
 }
 
